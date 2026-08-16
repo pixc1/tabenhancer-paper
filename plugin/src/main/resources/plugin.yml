@@ -1,0 +1,17 @@
+name: TabEnhancer
+version: 1.1.0
+main: com.example.tabenhancer.TabEnhancerPlugin
+description: English TAB header, footer, status prefixes, and ping display.
+author: Manus AI
+
+commands:
+  tabreload:
+    description: Reload TabEnhancer configuration.
+    usage: /tabreload
+    permission: tabenhancer.admin
+    permission-message: You do not have permission to reload the TAB configuration.
+
+permissions:
+  tabenhancer.admin:
+    description: Allows reloading the TabEnhancer configuration.
+    default: op

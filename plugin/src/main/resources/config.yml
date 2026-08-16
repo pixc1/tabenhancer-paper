@@ -1,0 +1,34 @@
+# إعدادات TabEnhancer
+# استخدم & للألوان القديمة، مثل &b و &7 و &l.
+
+header:
+  - "&8&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  - "&b&lTEST SERVER"
+  - "&7Welcome, &f%player%"
+  - ""
+
+footer:
+  - ""
+  - "&7Players: &f%online%&7/&f%max%"
+  - "&7Your mode: %gamemode% &8| &7Your ping: &f%ping%ms"
+  - "&8&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+settings:
+  update-interval-ticks: 20
+  show-status-prefix: true
+  show-ping: true
+  show-header-footer: true
+
+prefixes:
+  survival: "&8[&aSURVIVAL&8] &f"
+  creative: "&8[&dCREATIVE&8] &f"
+  adventure: "&8[&eADVENTURE&8] &f"
+  spectator: "&8[&bSPECTATOR&8] &f"
+  unknown: "&8[&7PLAYER&8] &f"
+
+gamemode-labels:
+  survival: "&aSurvival"
+  creative: "&dCreative"
+  adventure: "&eAdventure"
+  spectator: "&bSpectator"
+  unknown: "&7Unknown"
